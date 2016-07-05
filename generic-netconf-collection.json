@@ -1,0 +1,37 @@
+{
+	"id": "0ad28164-c93f-cab9-3ea6-52a18635960e",
+	"name": "generic netconf collection",
+	"description": "",
+	"order": [
+		"efebd502-d4b4-72b5-e84f-2a34251bf8bb"
+	],
+	"folders": [],
+	"timestamp": 1467757345973,
+	"owner": 0,
+	"remoteLink": "",
+	"public": false,
+	"published": false,
+	"requests": [
+		{
+			"id": "efebd502-d4b4-72b5-e84f-2a34251bf8bb",
+			"headers": "Authorization: Basic YWRtaW46YWRtaW4=\nContent-Type: application/json\nAccept: application/json\n",
+			"url": "http://localhost:8181/restconf/operations/network-topology:network-topology/topology/topology-netconf/node/netconf-mounted-through-topology-configuration/yang-ext:mount/ietf-netconf-monitoring:get-schema",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "0ad28164-c93f-cab9-3ea6-52a18635960e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "get-schema",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1467757564314,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\"input\":{\n\"identifier\":\"ietf-netconf-monitoring\",\n\"version\":\"2010-10-04\"\n}\n}"
+		}
+	]
+}
